@@ -1,0 +1,43 @@
+
+
+
+.loadingDiv{
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  background-color: rgba(0,0,0,0);
+  opacity: 0;
+  animation: loadshow 0s linear 1.5s 1;
+  animation-fill-mode: forwards;
+  z-index:1000;
+}
+
+.loading{
+  position:absolute;
+  top:50%;
+  left:50%;
+}
+// .loading :global(.ant-spin-dot){
+//   height:49px;
+//   width:49px;
+// }
+
+// .loading :global(.ant-spin-dot) i{
+//   background-color:white;
+//   height:22px;
+//   width:22px;
+// }
+
+@keyframes loadshow {
+  0% {
+      background-color: rgba(0,0,0,0.4);
+      opacity: 1;
+  }
+
+  100% {
+      background-color: rgba(0,0,0,0.4);
+      opacity: 1;
+  }
+}

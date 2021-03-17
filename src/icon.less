@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../src/assets/fonts/icomoon.eot");
+  src: url("../src/assets/fonts/icomoon.eot") format("embedded-opentype"),
+    url("../src/assets/fonts/icomoon.ttf") format("truetype"),
+    url("../src/assets/fonts/icomoon.woff") format("woff"),
+    url("../src/assets/fonts/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:global {
+  .icon-addFeatureSet:before {
+    content: "\e900";
+  }
+  .icon-addLayer:before {
+    content: "\e901";
+  }
+  .icon-addsubject:before {
+    content: "\e902";
+  }
+  .icon-directory:before {
+    content: "\e903";
+  }
+  .icon-inSpatialData:before {
+    content: "\e904";
+  }
+}
+
+:global {
+  /*弹窗头部样式*/
+  .ant-modal-header {
+    padding: 0px 0px !important;
+    border-radius: 4px 4px 0 0;
+    color: rgb(0, 0, 0) !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    background-color: #ebf0fa !important;
+    border-bottom: 1px solid #d2d2d2 !important;
+  }
+  .ant-modal-title {
+    line-height: 40px !important;
+    font-weight: 400 !important;
+    padding-left: 20px !important;
+    color: rgb(0, 0, 0) !important;
+  }
+  .ant-modal-close-x {
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 22px !important;
+  }
+}

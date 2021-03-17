@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_global\node_modules\yarn\bin\yarn.js add redux
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_global;C:\Python27;C:\Program Files\PuTTY\;D:\apache-tomcat-9.0.39\bin;D:\Program Files\apache-maven-3.6.3\bin;C:\Users\74281\AppData\Local\Microsoft\WindowsApps;C:\Users\74281\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\74281\AppData\Local\Programs\Fiddler;C:\Users\74281\AppData\Roaming\npm;C:\Program Files\nodejs\node_global;C:\Python27;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'G:\Demo\vite-project-react\node_modules\esbuild\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "vite-project-react",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "react": "^17.0.0",
+      "react-dom": "^17.0.0",
+      "react-router-dom": "^5.2.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react-refresh": "^1.3.1",
+      "less": "^4.1.1",
+      "vite": "^2.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

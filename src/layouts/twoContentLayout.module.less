@@ -1,0 +1,33 @@
+.container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  display: block;
+  z-index: 1;
+  .leftTop{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 60px;
+    width: 400px;
+  }
+  .content {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    .left {
+      width: 384px;
+      flex-shrink: 0;
+      margin-right: 20px;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+}
